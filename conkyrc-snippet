@@ -1,0 +1,4 @@
+${font sans-serif:bold:size=8}SERVERS ${hr 2}
+${font sans-serif:normal:size=8}IP address: $alignr XXXXXXXXXXXXXXXXXX
+DLS: ${texeci 5 curl --silent "http://XXXXXXXXXXXXXXXXXX/status.php?t=down&f=HUMAN"} $alignr total: ${texeci 5 curl --silent "http://XXXXXXXXXXXXXXXXXX/status.php?t=total-down&f=HUMAN"}    
+ULS: ${texeci 5 curl --silent "http://XXXXXXXXXXXXXXXXXX/status.php?t=up&f=HUMAN"} $alignr total: ${texeci 5 curl --silent "http://XXXXXXXXXXXXXXXXXX/status.php?t=total-up&f=HUMAN"}
