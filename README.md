@@ -29,17 +29,19 @@ Optional: `exec` enabled in `php.ini` in order to use the php frontend
 
 
 ## Installation
-1. Clone the repo inside where you want
-2. Run status.sh ACTION INTERFACE FORMAT (see Available Actions & Available Formats)
-3. END
+1. Install the dependencies (see Requirements)
+2. Clone the repo where you want
+3. Run './status.sh ACTION INTERFACE FORMAT' (see Available Actions & Available Formats)
+4. END
 
 
 ## Installation on webserver
-1. Clone the repo inside a webserver
-2. Open status.php
-3. Edit `$interface="eth0";` with the interface you want to monitor
-4. Go to the url http://XXXXXXXXX/status.php?t=ACTION&f=FORMAT (see Available Actions & Available Formats)
-5. END
+1. Install the dependencies and enable exec inside the php.ini (See Requirements)
+2. Clone the repo inside the webserver
+3. Open status.php
+4. Edit `$interface="eth0";` with the interface you want to monitor
+5. Open the url 'http://XXXXXXXXX/status.php?t=ACTION&f=FORMAT' (see Available Actions & Available Formats)
+6. END
  
 
 ## Conky
