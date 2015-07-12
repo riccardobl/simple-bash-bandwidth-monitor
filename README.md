@@ -31,7 +31,7 @@ Optional: `exec` enabled in `php.ini` in order to use the php frontend
 ## Installation
 1. Install the dependencies (see Requirements)
 2. Clone the repo where you want
-3. Run './status.sh ACTION INTERFACE FORMAT' (see Available Actions & Available Formats)
+3. Run `./status.sh ACTION INTERFACE FORMAT` (see Available Actions & Available Formats)
 4. END
 
 
@@ -40,7 +40,7 @@ Optional: `exec` enabled in `php.ini` in order to use the php frontend
 2. Clone the repo inside the webserver
 3. Open status.php
 4. Edit `$interface="eth0";` with the interface you want to monitor
-5. Open the url 'http://XXXXXXXXX/status.php?t=ACTION&f=FORMAT' (see Available Actions & Available Formats)
+5. Open the url `http://XXXXXXXXX/status.php?t=ACTION&f=FORMAT` (see Available Actions & Available Formats)
 6. END
  
 
